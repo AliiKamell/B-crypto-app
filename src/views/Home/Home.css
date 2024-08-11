@@ -1,0 +1,343 @@
+:root {
+   --bg-home-image-1: url('../../assets/bg-home.jpg');
+   --bg-home-image-2: url('../../assets/bg-home-2.jpg');
+   --bg-home-image-3: url('../../assets/bg-home-3.jpg');
+ }
+
+
+.top100T{
+background-color: #040825;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-bottom: 40px;
+}
+
+
+@media (max-width: 768px) {
+ .p-top100{
+    text-align: justify;
+ }
+
+ .card p{
+    padding-right: 10px;
+ }
+}
+
+/*styling the 1st section */
+
+.bg-1{
+   background-image: var(--bg-home-image-1);
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ .sec-1{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+ }
+ 
+ 
+ .title-home-1{
+   color: white;
+   font-size: 35px;
+   width: 50%;
+   padding-top: 100px;  
+   text-align:left ;
+   margin-left: 50px;
+ }
+ 
+ .subtitle-home-1{
+   color: white;
+   font-size: 15px;
+   width: 45%;
+   padding-top: 50px;
+   display: column; 
+   text-align: justify;
+   margin-left: 50px;
+ }
+ 
+ @media (max-width: 768px) {
+   
+ 
+   .sec-1{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: center;
+   }
+   
+ 
+   .toolbar {
+     display: flex;
+     justify-items: center;
+     position: fixed;
+   }
+ 
+   .logo{
+   font-size: 5px;
+   }
+ 
+   .btn-nav {
+     color: white; 
+     text-decoration: none; 
+     margin: 0px 13px 0px 13px;
+     border-radius: 5px;    
+     font-size: 8px;
+   }
+   .btn{
+     padding: 10px;
+ 
+   }
+ 
+   .title-home-1{
+     font-size: 20px;
+     text-align: center;
+     width: 95%;
+     margin-left: 0px;
+   }
+ 
+   .subtitle-home-1{
+     text-align: center;
+     width: 90%;
+     justify-content: center;    
+     font-size: 15px;
+     margin-left: 0px;
+     justify-items: center;
+   }
+ 
+ 
+   #btn{
+     margin-top: 150px;
+     padding-bottom: 190px;
+     display: flex;
+     justify-content: space-around;
+     padding-left: 0;
+   }
+ 
+ }
+ 
+ .btn-home{
+ margin-top: 130px;
+ padding-bottom: 170px;
+ display: flex;
+ flex-wrap: nowrap;
+ padding-left: 40px;
+ }
+ 
+ .btn-home-1{
+   display: column;
+   cursor: pointer;
+   color: white;
+   margin-left: 20px;
+   text-decoration: none;
+   background-color: rgba(0, 0, 0, 0.5); 
+   width: 160px;
+   height: 55px;
+   border-radius: 50px;
+   border: none;
+   font-size: 16px;
+   font-weight: 600;
+ }
+ 
+ .btn-home-1:hover{
+   box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 1)
+ }
+ 
+ 
+ .bn632-hover {
+   width: 160px;
+   font-size: 16px;
+   font-weight: 600;
+   color: #fff;
+   cursor: pointer;
+   height: 55px;
+   text-align:center;
+   border: none;
+   background-size: 300% 100%;
+   border-radius: 50px;
+   -o-transition: all .4s ease-in-out;
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+ }
+ 
+ .bn632-hover:hover {
+   background-position: 100% 0;
+   -o-transition: all .4s ease-in-out;
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+ }
+ 
+ .bn632-hover:focus {
+   outline: none;
+ }
+ 
+ .bn632-hover.bn20 {
+   background-image: linear-gradient(
+     to right,
+     #667eea,
+     #764ba2,
+     #6b8dd6,
+     #8e37d7
+   );
+   box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+ }
+
+ 
+ 
+
+/* styling the second section */
+
+
+.bg-2{
+   background-image: var(--bg-home-image-2);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   min-height: 100vh;
+ }
+ 
+ 
+ .title-home-2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   color: white;
+   text-align: center;
+   justify-content: center;
+   padding-top: 50px;
+   padding-bottom: 30px;
+   font-size: 25px;
+ }
+ 
+ .title-home-2 p{
+   margin-top: 30px;
+   color: white;
+   text-align: center;
+   width: 70%;
+   padding-top: 20px;
+   padding-bottom: 50px;
+   font-size:100%;
+   align-items: end;
+ }
+ 
+ 
+ .head-2{
+   display: flex;
+   flex-direction: column;
+   align-content: flex-start;
+   font-size: 100%;
+   margin-left: 150px;
+   margin-top: 30px;
+   color: white;
+ }
+ 
+ @media (max-width: 1355px) {
+   .head-2 {
+     text-align: center;
+     margin-left: -10px;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+ .title-home-2 p{
+   font-size: 20px;
+   width: 90%;
+ }
+ 
+ }
+ 
+ 
+ .card-main{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+ 
+ }
+ 
+ .card{
+   color: white;
+   background-color: rgba(0, 0, 0, 0.5);
+   gap: 10px;
+   height: 160px;
+   max-width: 480px;
+   border-radius: 25px;
+   margin: 40px 30px 10px 30px;
+   padding-top: 10px;
+   padding-left: 20px;
+   margin-bottom: 30px;
+ }
+ 
+ .card:hover{
+   background-color: rgba(0, 0, 0, 0.8);
+   box-shadow: 0 6px 15px 0 rgba(116, 79, 168, 0.75);
+ }
+ 
+ .card i{
+ font-weight: bold;
+ font-size: 105%;
+ }
+ 
+ .card p{
+   font-size: 100%;
+   max-width: 100%;
+   max-height: fit-content;
+   margin-top: 20px;
+   padding-right: 10px;
+ }
+
+ 
+ 
+
+
+/* Styling the 3rd section for the top 100 coins */
+
+
+.bg-3{
+   background-color: #040825;
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ 
+ .sec-3{
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .head-3{
+   font-size: 25px;
+   margin-top: 50px;
+   padding-bottom: 30px;
+ }
+ 
+ .trending{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .table{
+   margin-bottom: 80px;
+ }
+ 
+ .coin-link{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+ }
+ 
+ 
+.p-top100{
+  color: white;
+  margin-top: 5px;
+  flex-wrap: wrap;
+  max-width: 75%;
+  padding: 5px;
+}

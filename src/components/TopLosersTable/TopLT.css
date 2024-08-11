@@ -1,0 +1,31 @@
+.top-table{
+    margin-bottom: 20px;
+    color: white;
+}
+
+#table-head{
+    background-color: #040825;
+    font-weight: bold;
+}
+
+#table-cell{
+    color: white;
+}
+
+#table-body{
+    background-color: #040825;
+}
+
+#tableL-pagination{
+    background-color: #040825;
+    color: white;
+}
+
+.css-o9ey65{
+    color: white;
+}
+
+
+#table-cell-losers{
+    color: red;
+}

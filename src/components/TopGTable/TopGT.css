@@ -1,0 +1,27 @@
+.top-table{
+    margin-bottom: 20px;
+    color: white;
+}
+
+#table-head{
+    background-color: #040825;
+    font-weight: bold;
+}
+
+#tableG-pagination{
+    background-color: #040825;
+    color: white;
+}
+
+#table-cell{
+    color: white;
+}
+
+.css-o9ey65{
+    color: white;
+}
+
+
+#table-cell-gainers{
+    color: rgb(0, 255, 0);
+}

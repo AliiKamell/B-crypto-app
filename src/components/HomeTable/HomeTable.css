@@ -1,0 +1,51 @@
+
+#table-cell{
+    color: white;
+    background-color: #040825;
+}
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar{
+    background-color: #040825;
+    color: white;
+}
+
+#table-pagination{
+    background-color:  #040825;
+    color: white;
+}
+
+#table-head{
+    background-color: #040825;
+    color: white;
+}
+
+#table-body{
+    color: white;
+}
+
+.img-table{
+    height: 35px;
+}
+#table-cell{
+    color: white;
+    text-decoration: none;
+}
+
+#coinLink{
+    text-decoration: none;
+}
+.tabel-link{
+    text-decoration: none;
+    color: white;
+}
+
+path{
+    color: white;
+}
+
+#table-cell:hover{
+font-size: large;
+}
+
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input{
+    color: white;
+}
