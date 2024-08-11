@@ -93,7 +93,7 @@ function CoinChart() {
                   y: {
                     ticks: {
                       color: "white", // Set the Y-axis labels (prices) to white
-                    },
+                    },  
                   },
                 },
                 plugins: {
