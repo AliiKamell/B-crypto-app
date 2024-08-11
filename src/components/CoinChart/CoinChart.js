@@ -54,8 +54,6 @@ function CoinChart() {
     }
   }, [chart]);
 
-  console.log("data: ", historicaData);
-
   return (
     <ThemeProvider theme={darkTheme}>
       <div className="chartMain">
